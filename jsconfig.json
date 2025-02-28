@@ -1,0 +1,60 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "target": "ES6",
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "next-env.d.js",
+    "**/*.js",
+    "**/*.jsx",
+    ".next/types/**/*.js",
+    "app/about-us/page.jsx",
+    "app/layout.jsx",
+    "app/page.jsx",
+    "components/ui/accordion.jsx",
+    "components/ui/button.jsx",
+    "components/ui/input.jsx",
+    "components/ui/select.jsx",
+    "components/ui/separator.jsx",
+    "components/ui/sheet.jsx",
+    "components/ui/skeleton.jsx",
+    "components/ui/table.jsx",
+    "components/ui/tooltip.jsx",
+    "components/footer.jsx",
+    "components/header.jsx",
+    "components/theme-provider.jsx",
+    "hooks/use-mobile.jsx",
+    "hooks/use-toast.js",
+    "app/start/page.jsx",
+    "lib/utils.js",
+    "app/mortgage-calculator/page.jsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
